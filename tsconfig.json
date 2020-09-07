@@ -2,6 +2,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "experimentalDecorators": true,
+    "module": "ESNext",
     "noImplicitAny": true,
     "removeComments": true,
     "strictNullChecks": true,
