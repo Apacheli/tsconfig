@@ -1,8 +1,14 @@
 {
   "name": "@apacheli/tsconfig",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "TypeScript configuration",
   "main": "tsconfig",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "prepare": "js-yaml tsconfig.yaml > tsconfig.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Apacheli/tsconfig.git"
@@ -14,6 +20,6 @@
   },
   "homepage": "https://github.com/Apacheli/tsconfig#readme",
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "js-yaml": "^3.14.0"
   }
 }
