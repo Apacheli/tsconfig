@@ -5,7 +5,6 @@ compilerOptions:
   module: ESNext
   moduleResolution: Node
   noImplicitAny: true
-  outDir: ../../../out # Path resolution hack cause outDir's relativity
   strict: true
   target: ESNext
   useDefineForClassFields: true
