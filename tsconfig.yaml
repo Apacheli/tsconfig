@@ -5,7 +5,6 @@ compilerOptions:
   module: ESNext
   moduleResolution: Node
   noImplicitAny: true
-  removeComments: true
   strictNullChecks: true
   strictPropertyInitialization: true
   target: ESNext
